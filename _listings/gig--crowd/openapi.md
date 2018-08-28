@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: GIG & CROWD
 x-complete: 1
@@ -181,4 +180,3 @@ paths:
       - Payment
       - Promocode
       - Requestid
----

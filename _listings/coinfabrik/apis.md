@@ -10,11 +10,31 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "970321"
 tags: Promotions
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/promotions/master/_listings/coinfabrik/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Coinbase API - Set account as primary
+  x-api-slug: accountsaccount-idprimary-get
+  description: Promote an account as primary account.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/coinfabrik.png
+  humanURL: https://www.coinfabrik.com
+  baseURL: https://api.coinbase.com//v2
+  tags: SaaS, Blockchain, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/promotions/master/_listings/coinfabrik/accountsaccount-idprimary-get-openapi.md
+- name: Coinbase API - Set account as primary
+  x-api-slug: accountsaccount-idprimary-get
+  description: Promote an account as primary account.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/coinfabrik.png
+  humanURL: https://www.coinfabrik.com
+  baseURL: https://api.coinbase.com//v2
+  tags: SaaS, Blockchain, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/promotions/master/_listings/coinfabrik/accountsaccount-idprimary-get-openapi.md
 x-common:
 - type: x-blog-rss
   url: https://blog.coinfabrik.com/feed/

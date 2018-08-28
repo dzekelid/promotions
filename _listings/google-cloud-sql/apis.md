@@ -10,11 +10,24 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "0"
 tags: Promotions
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/promotions/master/_listings/google-cloud-sql/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Cloud SQL Administration - Add Projects Project Instances Instance Promotereplica
+  x-api-slug: projectsprojectinstancesinstancepromotereplica-post
+  description: Promotes the read replica instance to be a stand-alone Cloud SQL instance.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-cloud-sql-lead-2x.png
+  humanURL: https://cloud.google.com/sql/
+  baseURL: ://www.googleapis.com//sql/v1beta4
+  tags: Google APIs, Stack Network, API Service Provider, API Provider, Databases,
+    Profiles, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/promotions/master/_listings/google-cloud-sql/projectsprojectinstancesinstancepromotereplica-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/promotions/master/_listings/google-cloud-sql/projectsprojectinstancesinstancepromotereplica-post-openapi.md
 - name: Cloud SQL Administration - Add Projects Project Instances Instance Promotereplica
   x-api-slug: projectsprojectinstancesinstancepromotereplica-post
   description: Promotes the read replica instance to be a stand-alone Cloud SQL instance.
